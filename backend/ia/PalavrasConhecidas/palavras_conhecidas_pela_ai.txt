@@ -1,0 +1,1 @@
+1;2;4;5;7;9;A;Adulto;Aviao;B;C;D;E;F;G;I;L;M;N;O;P;Palavra;Pequeno;Q;R;S;T;U;V;W;X;Y
