@@ -43,7 +43,7 @@ function WebCamComponent() {
 
   const fetchPhoto = async () => {
     setLoading(true);
-    const response = await fetch(`https://api.unsplash.com/photos/random?query=${query}&client_id=rX58ilzGPFa7AZUeLrxKgsivcgvKn1sZo5pkg9eDSJo`);
+    const response = await fetch(`https://api.unsplash.com/photos/random?query=${query}&client_id=_APIKEY_`);
     const data = await response.json();
     setPhoto(data.urls.regular);
     setLoading(false);
